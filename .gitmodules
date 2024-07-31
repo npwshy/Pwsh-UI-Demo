@@ -1,0 +1,3 @@
+[submodule "lib.pwsh"]
+	path = lib.pwsh
+	url = https://github.com/npwshy/lib.pwsh
