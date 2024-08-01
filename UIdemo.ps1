@@ -31,7 +31,7 @@ class Main {
     Run() {
         $this.Init()
 
-        $p = [UiGenParams]::New()
+        $p = [UIGenParams]::New()
         $p.Title = 'Pwsh UI Demo'
         $p.OutPath = 'demo.html'
         $p.Port = $this.GetAvailablePort()
