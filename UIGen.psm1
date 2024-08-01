@@ -12,7 +12,7 @@ class UIGenParams : HTMLGenParams {
 class UIGen : HTMLGenerator {
     AddBodyScript() {
         $dir = [AppEnv]::Get('HTML.JS.Dir')
-        $jsfiles = [AppEnv]::Get('HTML.BddyJS.Files') -split(',')
+        $jsfiles = [AppEnv]::Get('HTML.BodyJS.Files') -split(',')
 
         foreach ($f in $jsfiles) {
             $fp = Join-Path $dir "$f.js"
