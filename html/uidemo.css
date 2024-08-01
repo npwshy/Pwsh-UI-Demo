@@ -1,0 +1,25 @@
+
+.inputarea {
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: orange;
+    background-color: linen;
+    padding: 1em 2em 1em 2em;
+    margin-bottom: 1lh;
+    color: black;
+}
+
+.buttonarea {
+    margin-top: 2lh;
+}
+
+.messagearea {
+    margin-top: 1.5lh;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    min-height: 3lh;
+    background: lightgray;
+    padding: 3px;
+}

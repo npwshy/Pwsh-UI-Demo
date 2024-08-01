@@ -1,0 +1,25 @@
+<h1>pwsh UI Demo</h1>
+<div class="inputarea">
+    <div class="textlabel">以下の情報を入力し、実行ボタンをクリック！</div>
+    <div>
+        <label>相手:</label>
+        <input type="text" id="paramId" />
+    </div>
+    <div>
+        <label>処理:</label>
+        <select id="selAction">
+            <option value="Noop"></option>
+            <option value="Fight">戦う</option>
+            <option value="SpellMagic">魔法</option>
+            <option value="UseItem">使う</option>
+            <option value="Escape">逃げる</option>
+        </select>
+    </div>
+
+    <div class="buttonarea">
+        <input type="button" id="buttonOK" value="実行" disabled />
+        <input type="button" id="buttonCancel" value="キャンセル"/>
+    </div>
+
+    <div class="messagearea" id="ma1">パラメータを設定して実行！</div>
+</div>

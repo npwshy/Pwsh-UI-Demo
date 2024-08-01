@@ -1,0 +1,8 @@
+{
+    "HTML.Template.Body": "html\\uidemo-body.html",
+    "HTML.Template.CSS": "html\\uidemo.css",
+    "HTML.JS.Dir": "js",
+    "HTML.BddyJS.Files": "Var,EventManager,WebSocketHelper,CommandScheduler,UIdemoAPI,Main",
+
+    "Browser": "c:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+}
